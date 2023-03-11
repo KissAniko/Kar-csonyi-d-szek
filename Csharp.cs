@@ -35,7 +35,7 @@ namespace karacsonyCLI_1
 
             public int NapiBevetel()
             {
-                return -(HarangEladott * 1000 + AngyalkaEladott * 1350 + FenyofaEladott * 1500);
+                return (HarangEladott * 1000 + AngyalkaEladott * 1350 + FenyofaEladott * 1500);
             }
         }
     }
